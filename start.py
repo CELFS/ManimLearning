@@ -9,11 +9,14 @@
 #
 #         self.add(circle) # Scene 的方法 add 添加到画面
 
-# 【执行语句】
+# 【执行语句】https://docs.manim.org.cn/getting_started/configuration.html
 # manimgl start.py SquareToCircle 【输出画面】
 # manimgl start.py SquareToCircle -os 【输出图片】
 # manimgl start.py SquareToCircle -ow 【输出动画】
 # manimgl 【可直接进入交互模式】
+# manimgl <code>.py <Scene> <flags>
+# 或
+# manim-render <code>.py <Scene> <flags>
 
 from manimlib import *
 
